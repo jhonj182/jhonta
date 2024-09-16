@@ -158,7 +158,7 @@ Basic configuration file: `./src/config.yaml`
 
 ```yaml
 site:
-  name: 'Example'
+  name: 'Jhon Tamayo'
   site: 'https://example.com'
   base: '/' # Change this if you need to deploy to Github Pages, for example
   trailingSlash: false # Generate permalinks with or without "/" at the end
