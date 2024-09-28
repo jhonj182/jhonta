@@ -22,17 +22,17 @@ const metadata = {
   <Fragment slot="header">
     <Header
       links={[
-        { text: 'Home', href: '#' },
-        { text: 'About', href: '#about' },
-        { text: 'Resume', href: '#resume' },
-        { text: 'Porfolio', href: '#porfolio' },
-        { text: 'Blog', href: '#blog' },
+        // { text: 'Home', href: '#' },
+        // { text: 'About', href: '#about' },
+        // { text: 'Resume', href: '#resume' },
+        // { text: 'Porfolio', href: '#porfolio' },
+        // { text: 'Blog', href: '#blog' },
         // { text: 'Github', href: 'https://github.com/onwidget' },
       ]}
       actions={[
         {
           text: '¡Trabajemos Juntos!',
-          href: '/contact#form',
+          // href: '/contact#form',
         },
       ]}
       isSticky
@@ -42,21 +42,16 @@ const metadata = {
 
   <!-- Hero2 Widget ******************* -->
 
-  <Hero
-    id="hero"
-    title="Jhon Tamayo"
-    tagline="Desarrollador Web"
-    actions={[{ variant: 'primary', text: 'Hire me', href: getPermalink('/contact#form') }]}
-  >
+  <Hero id="hero" title="Jhon Tamayo" tagline="Desarrollador Web">
     <Fragment slot="subtitle">
       ¡Bienvenido a mi portafolio web! Soy un Desarrollador Web con 10 años de experiencia, especializado en crear
       sitios rápidos, eficientes y visualmente atractivos. Estoy aquí para mostrarte cómo transformar tu visión en una
       experiencia digital excepcional. ¡Explora y descubre lo que puedo hacer por ti!
     </Fragment>
   </Hero>
-
+  <!-- 
   <!-- Content Widget **************** -->
-
+  <!-- 
   <Content
     id="about"
     columns={3}
@@ -91,8 +86,8 @@ const metadata = {
       alt: 'Colorful Image',
       loading: 'lazy',
     }}
-  >
-    <Fragment slot="content">
+  > -->
+  <!-- <Fragment slot="content">
       <h2 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Sobre mi</h2>
       <p>
         Soy un Desarrollador Web apasionado por crear experiencias digitales impactantes. Con aproximadamente 10 años de
@@ -106,12 +101,12 @@ const metadata = {
 
     <Fragment slot="bg">
       <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
-    </Fragment>
-  </Content>
+    </Fragment> -->
+  <!-- </Content> -->
 
   <!-- Steps Widget ****************** -->
 
-  <Steps
+  <!-- <Steps
     id="resume"
     title="Work experience"
     items={[
@@ -129,10 +124,10 @@ const metadata = {
       },
     ]}
     classes={{ container: 'max-w-3xl' }}
-  />
+  /> -->
 
   <!-- Steps Widget ****************** -->
-
+  <!-- 
   <Steps
     id="resume"
     title="Education"
@@ -147,11 +142,11 @@ const metadata = {
       },
     ]}
     classes={{ container: 'max-w-3xl' }}
-  />
+  /> -->
 
   <!-- Features3 Widget ************** -->
 
-  <Features3
+  <!-- <Features3
     title="Skills"
     subtitle="Discover the proficiencies that allow me to bring imagination to life through design."
     columns={3}
@@ -194,11 +189,11 @@ const metadata = {
         description: 'Quick to adapt to new design trends, technologies, and client preferences.',
       },
     ]}
-  />
+  /> -->
 
   <!-- Content Widget **************** -->
 
-  <Content
+  <!-- <Content
     id="porfolio"
     title="Elevating visual narratives"
     subtitle="Embark on a design journey that surpasses pixels, entering a realm of imagination. Explore my portfolio, where passion and creativity converge to shape enthralling visual narratives."
@@ -235,11 +230,11 @@ const metadata = {
     <Fragment slot="bg">
       <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
     </Fragment>
-  </Content>
+  </Content> -->
 
   <!-- Content Widget **************** -->
 
-  <Content
+  <!-- <Content
     isReversed
     isAfterContent={true}
     items={[
@@ -263,8 +258,8 @@ const metadata = {
       icon: 'tabler:chevron-right',
       href: '#',
     }}
-  >
-    <Fragment slot="content">
+  > -->
+  <!-- <Fragment slot="content">
       <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">
         Project 2: <br /><span class="text-2xl">Event poster for art & music festival</span>
       </h3>
@@ -277,7 +272,7 @@ const metadata = {
 
   <!-- Content Widget **************** -->
 
-  <Content
+  <!-- <Content
     isReversed
     isAfterContent={true}
     items={[
@@ -300,8 +295,8 @@ const metadata = {
       icon: 'tabler:chevron-right',
       href: '#',
     }}
-  >
-    <Fragment slot="content">
+  > -->
+  <!-- <Fragment slot="content">
       <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">
         Project 3: <br /><span class="text-2xl">E-commerce website redesign for fashion brand</span>
       </h3>
@@ -309,12 +304,12 @@ const metadata = {
 
     <Fragment slot="bg">
       <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
-    </Fragment>
-  </Content>
+    </Fragment> -->
+  <!-- </Content> -->
 
   <!-- Testimonials Widget *********** -->
 
-  <Testimonials
+  <!-- <Testimonials
     title="Client testimonials"
     subtitle="Discover what clients have to say about their experiences working with me."
     testimonials={[
@@ -373,11 +368,11 @@ const metadata = {
         },
       },
     ]}
-  />
+  /> -->
 
   <!-- CallToAction Widget *********** -->
 
-  <CallToAction
+  <!-- <CallToAction
     title="Let's create together"
     subtitle="Ready to transform your vision into captivating designs?"
     actions={[
@@ -387,17 +382,16 @@ const metadata = {
         href: '/',
       },
     ]}
-  />
+  /> -->
 
   <!-- BlogLatestPost Widget **************** -->
 
-  <BlogLatestPosts
+  <!-- <BlogLatestPosts
     id="blog"
     title="Explore my insightful articles on my blog"
     information={`Dive into a realm of design wisdom and creative inspiration, where you'll find invaluable insights, practical tips, and captivating narratives that elevate and enrich your creative journey.`}
-  >
-    <Fragment slot="bg">
-      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
-    </Fragment>
-  </BlogLatestPosts>
+  > -->
+  <!-- <Fragment slot="bg">
+    <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+  </Fragment> -->
 </Layout>
